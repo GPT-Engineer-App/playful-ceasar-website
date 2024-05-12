@@ -15,7 +15,7 @@ const Index = () => {
         <Image
           src="https://caesar-age.netlify.app/ceasar-on-back.jpg"
           alt="Caesar"
-          objectFit="contain"
+          objectFit="cover"
           htmlWidth="100%"
           htmlHeight="100%"
           ref={imgRef}
