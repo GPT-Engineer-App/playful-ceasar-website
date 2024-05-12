@@ -15,10 +15,9 @@ const Index = () => {
         <Image
           src="https://caesar-age.netlify.app/ceasar-on-back.jpg"
           alt="Caesar"
-          objectFit="cover"
-          htmlWidth={`${100 * zoom}%`}
+          objectFit="contain"
+          htmlWidth="100%"
           htmlHeight="100%"
-          style={{ objectPosition: 'top' }}
           ref={imgRef}
         />
         <Box position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)" width="full" p={4} bg="rgba(255, 255, 255, 0.8)" textAlign="center" zIndex="2">
